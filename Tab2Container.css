@@ -1,0 +1,14 @@
+/* Tab2Container.css */
+.popover-content {
+    padding: 20px;
+  }
+  
+  .popover-content h3 {
+    margin-top: 0;
+  }
+  .settings{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+  
