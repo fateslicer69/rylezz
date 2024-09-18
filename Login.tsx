@@ -15,7 +15,6 @@ import {
   IonButtons,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { helpCircleOutline, personAddOutline } from "ionicons/icons";
 import { IonAccordion, IonAccordionGroup, IonItem, IonLabel } from '@ionic/react';
 import "./Login.css";
@@ -45,7 +44,7 @@ const Login: React.FC<LoginProps> = ({ setIsLoggedIn }) => {
       <IonContent fullscreen>
         <div className="login-container">
           <div className="main-heading">
-            <h1>WELCOME TO RAILMADAD, YOUR GOTO RAILWAY COMPLAINT ASSISTANT</h1>
+            <h1>WELCOME</h1>
           </div>
 
           <div className="login-form">
