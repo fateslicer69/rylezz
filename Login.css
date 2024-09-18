@@ -7,9 +7,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(180deg, #f14141 0%, #FDFDFD 100%);
-
-
+    background: white;
 }
 
 /* Header text styling */
@@ -33,11 +31,11 @@
 .login-form {
     width: 90%;
     max-width: 400px; /* Limit width to look good on mobile */
-    border: 2px solid black;
-    border-radius: 30px; /* Rounded corners for a modern feel */
-    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px; /* Rounded corners for a modern feel */
+    padding: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    background-color: #e2e2e2;
+    background-color: white;
     
 }
 /* Styling for the input fields */
@@ -65,32 +63,27 @@
     margin-bottom: 30px;
   }
   
-  .input-box {
-    --padding-start: 16px; /* Adjust padding for the input box */
-    --padding-top: 12px;
-    --padding-bottom: 12px;
-    --placeholder-color: rgba(0, 0, 0, 0.5); /* Placeholder text color */
-    --background: #e2e2e2;
-    --border: black 2px solid;
-    --border-radius: 8px; /* Soft rounded corners for input */
-    font-size: 14px;
-  }
+ 
   
   .input-box .native-input {
     padding: 5px; /* Ensure the input text has enough space */
   }
+  .input-box{
+    border-radius: 30px;
+  }
+  
   
   .input-box label {
     font-size: 12px; /* Make label smaller to avoid overlap */
     top: -8px; /* Adjust label positioning when floating */
-    padding-left: 2px;
+    /* padding-left: 2px; */
   }
   
   .input-box.ion-focused label {
     top: -18px; /* Move label upwards when input is focused */
     font-size: 10px; /* Adjust font size on focus */
-    color: #007bff; /* Label color on focus */
-  }  
+     
+}  
 
 /* Buttons layout */
 .form-buttons {
@@ -101,13 +94,13 @@
 }
 
 .form-button {
-    width: 100px;
+    width: fit-content;
     text-align: center;
-    background-color: #f14141;
+    background-color:  tomato;
     color: white;
-    border-radius: 8px; /* Rounder buttons to match design */
-    padding: 10px;
-    font-size: 16px;
+    border-radius: 20px; /* Rounder buttons to match design */
+    padding: 4px;
+    font-size: 8px;
     font-weight: bold;
     border: none;
 }
@@ -153,9 +146,10 @@
 }
 
 .ionic-card{
-    background-color: #e2e2e2;
+    background-color: white;
     padding: 2px;
     border-radius: 8px;
+    border: tomato 2px solid;
 }
 
 .options-naming-container{
@@ -166,8 +160,6 @@
     margin-left: 10px;
    
 }
-
-
 
 .faqs-container{
     margin-top: 10px;
