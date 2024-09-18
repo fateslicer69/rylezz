@@ -1,0 +1,86 @@
+.chat-interface {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    position: fixed; /* Fixes the position */
+    bottom: 60px; /* Adjust based on the height of your tabs */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.chat-header {
+    background-color: #F14141;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #e5d5dd;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    word-break: break-word;
+}
+
+.user-message {
+    background-color: palevioletred;
+    align-self: flex-end;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.bot-message {
+    background-color: #ffffff;
+    align-self: flex-start;
+}
+
+.chat-input {
+    display: flex;
+    gap: 6px;
+    border-top: 1px solid #ccc;
+    background-color: #e5d5dd;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+}
+
+.chat-input button {
+    padding: 5px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 20%;
+}
+.attach-icon {
+    color: #8a8a8a;
+    font-size: 24px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
